@@ -1,0 +1,28 @@
+.container
+{
+	border-radius: 10px;
+	overflow: hidden;
+	cursor: pointer;
+}
+.container img
+{
+	filter: grayscale(0%);
+	transition: 0.5s;
+	cursor: pointer;
+}
+.container img:hover
+{
+	transform: scale(1.1);
+	filter: grayscale(0%);
+}
+.container li
+{
+	filter: grayscale(0%);
+	transition: 0.5s;
+	cursor: pointer;
+}
+.container li:hover
+{
+	transform: scale(1.3);
+	filter: grayscale(0%);
+}
